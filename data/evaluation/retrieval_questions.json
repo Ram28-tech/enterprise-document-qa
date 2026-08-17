@@ -1,0 +1,158 @@
+[
+  {
+    "id": "q01",
+    "question": "How much vacation time does a worker receive every year?",
+    "expected_documents": ["leave_policy.pdf", "employee_handbook.pdf"],
+    "type": "paraphrase"
+  },
+  {
+    "id": "q02",
+    "question": "How many annual leave days can be carried forward, and when do they expire?",
+    "expected_documents": ["leave_policy.pdf"],
+    "type": "straightforward"
+  },
+  {
+    "id": "q03",
+    "question": "When must an employee provide a medical certificate for sickness?",
+    "expected_documents": ["leave_policy.pdf", "employee_handbook.pdf"],
+    "type": "semantic"
+  },
+  {
+    "id": "q04",
+    "question": "How far in advance should three or more consecutive leave days be requested?",
+    "expected_documents": ["leave_policy.pdf"],
+    "type": "straightforward"
+  },
+  {
+    "id": "q05",
+    "question": "What happens to unused annual leave when an employee leaves the company?",
+    "expected_documents": ["leave_policy.pdf"],
+    "type": "semantic"
+  },
+  {
+    "id": "q06",
+    "question": "How much can an employee claim for a hotel in a Tier-1 city while travelling for business?",
+    "expected_documents": ["travel_reimbursement_policy.pdf"],
+    "type": "distractor"
+  },
+  {
+    "id": "q07",
+    "question": "What is the daily meal reimbursement limit for domestic overnight travel?",
+    "expected_documents": ["travel_reimbursement_policy.pdf"],
+    "type": "straightforward"
+  },
+  {
+    "id": "q08",
+    "question": "At what expense amount does a business traveller need to provide a receipt?",
+    "expected_documents": ["travel_reimbursement_policy.pdf"],
+    "type": "distractor"
+  },
+  {
+    "id": "q09",
+    "question": "How soon after a trip should an employee submit an expense report?",
+    "expected_documents": ["travel_reimbursement_policy.pdf"],
+    "type": "semantic"
+  },
+  {
+    "id": "q10",
+    "question": "Can employees connect their personal laptops to sensitive finance systems?",
+    "expected_documents": ["it_security_policy.pdf"],
+    "type": "semantic"
+  },
+  {
+    "id": "q11",
+    "question": "How quickly must a lost or stolen corporate device be reported?",
+    "expected_documents": ["it_security_policy.pdf"],
+    "type": "straightforward"
+  },
+  {
+    "id": "q12",
+    "question": "What authentication controls apply to corporate accounts and finance applications?",
+    "expected_documents": ["it_security_policy.pdf"],
+    "type": "semantic"
+  },
+  {
+    "id": "q13",
+    "question": "May restricted company information be copied to personal cloud storage or unmanaged USB drives?",
+    "expected_documents": ["it_security_policy.pdf"],
+    "type": "semantic"
+  },
+  {
+    "id": "q14",
+    "question": "How much can an employee claim for professional courses and certifications each year?",
+    "expected_documents": ["learning_development_policy.pdf"],
+    "type": "distractor"
+  },
+  {
+    "id": "q15",
+    "question": "Under what conditions can a second certification examination attempt be reimbursed?",
+    "expected_documents": ["learning_development_policy.pdf"],
+    "type": "straightforward"
+  },
+  {
+    "id": "q16",
+    "question": "Which policy pays for conference travel, and which policy covers the registration fee?",
+    "expected_documents": [
+      "travel_reimbursement_policy.pdf",
+      "learning_development_policy.pdf"
+    ],
+    "type": "multi_document"
+  },
+  {
+    "id": "q17",
+    "question": "Compare reimbursement for a business-trip hotel with accommodation for a training event.",
+    "expected_documents": [
+      "travel_reimbursement_policy.pdf",
+      "learning_development_policy.pdf"
+    ],
+    "type": "multi_document"
+  },
+  {
+    "id": "q18",
+    "question": "What are the normal working hours and core collaboration hours?",
+    "expected_documents": ["employee_handbook.pdf"],
+    "type": "straightforward"
+  },
+  {
+    "id": "q19",
+    "question": "How much notice must confirmed and probationary employees give before resigning?",
+    "expected_documents": ["employee_handbook.pdf"],
+    "type": "paraphrase"
+  },
+  {
+    "id": "q20",
+    "question": "What technologies and interface components were used for the user-facing part of Chrono Connect?",
+    "expected_documents": ["chrono_connect_report.pdf"],
+    "type": "chrono_connect"
+  },
+  {
+    "id": "q21",
+    "question": "Does the company provide free gym memberships?",
+    "expected_documents": [],
+    "type": "unsupported"
+  },
+  {
+    "id": "q22",
+    "question": "What company car model is given to senior employees?",
+    "expected_documents": [],
+    "type": "unsupported"
+  },
+  {
+    "id": "q23",
+    "question": "Does the organization provide free meals every day?",
+    "expected_documents": [],
+    "type": "unsupported"
+  },
+  {
+    "id": "q24",
+    "question": "Does the company operate an on-site childcare centre?",
+    "expected_documents": [],
+    "type": "unsupported"
+  },
+  {
+    "id": "q25",
+    "question": "What pet insurance plan is available to employees?",
+    "expected_documents": [],
+    "type": "unsupported"
+  }
+]

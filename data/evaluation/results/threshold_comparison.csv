@@ -1,0 +1,4 @@
+threshold,supported_success_rate,unsupported_rejection_rate,overall_decision_accuracy
+0.40,1.000000,1.000000,1.000000
+0.50,0.900000,1.000000,0.920000
+0.60,0.600000,1.000000,0.680000

@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+*.pyc
+.env
+
+# Tool and application caches
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.streamlit/cache/
+.streamlit/secrets.toml
+
+# Local IDE and operating-system files
+.idea/
+.vscode/
+*.swp
+*.swo
+*.code-workspace
+.DS_Store
+Thumbs.db
+
+# Generated local Qdrant data
+vector_store/qdrant/*
+
+# Uploaded documents
+data/documents/*
+!data/documents/.gitkeep
