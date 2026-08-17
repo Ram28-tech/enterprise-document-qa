@@ -175,7 +175,6 @@ The final query demonstrates unsupported-query rejection.
 
 ![FastAPI Swagger documentation](docs/screenshots/fastapi-docs.png)
 
-![FastAPI Swagger endpoint details](docs/screenshots/fastapi-docs-2.png)
 
 ## API Endpoints
 
@@ -187,14 +186,6 @@ The final query demonstrates unsupported-query rejection.
 | POST | `/documents/index` | Rebuild document index |
 | POST | `/query` | Run a grounded RAG query |
 
-## Limitations
-
-- Text-based PDFs only; no OCR
-- Retrieval depends on embedding and source-document quality
-- Similarity threshold is corpus-dependent
-- No reranking or hybrid BM25/vector search
-- No persistent conversational memory
-- Gemini availability and latency affect answer generation
 
 ## Future Improvements
 
@@ -209,6 +200,10 @@ The final query demonstrates unsupported-query rejection.
 - Enterprise documents may contain sensitive information.
 - Production systems require authentication, authorization, and appropriate data governance.
 
-## Author
+## 👨‍💻 Author
 
-**Akula S V P Sai Ram** · B.Tech Computer Science and Engineering · Mahatma Gandhi Institute of Technology (MGIT)
+**Akula S V P Sai Ram**
+
+B.Tech Computer Science and Engineering
+
+Mahatma Gandhi Institute of Technology (MGIT)
