@@ -317,6 +317,7 @@ The normal query response contains the answer, cited source metadata, and compac
 
 ![FastAPI Swagger endpoint details](docs/screenshots/fastapi-docs-2.png)
 
+
 ## Limitations
 
 - Text-based PDFs only
@@ -345,3 +346,12 @@ The normal query response contains the answer, cited source metadata, and compac
 - Enterprise documents may contain sensitive or regulated information.
 - Production deployments require authentication, authorization, encryption, access logging, retention controls, and appropriate data-governance policies.
 - Review the data-handling terms and deployment settings of external services before sending enterprise content to them.
+
+## 👨‍💻 Author
+
+**Akula S V P Sai Ram**
+
+B.Tech Computer Science and Engineering
+
+Mahatma Gandhi Institute of Technology (MGIT)
+
